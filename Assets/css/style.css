@@ -1,0 +1,58 @@
+
+body{
+    background-image: url(../images/checkered-flag-bg.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 960px;
+    margin: auto;
+}
+
+h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#content{
+    width: 100%;
+    margin: auto;
+}
+
+#gameTitle{
+    background-color: #e60505ec;
+    color: white;
+    text-align: center;
+    margin: 30px 30px;
+    padding: 10px 0;
+}
+
+#gamePlay{
+    background-color: #777777;
+    color: white;
+    font-size: 18px;
+    width: 50%;
+    margin-left: 30px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    box-sizing: border-box;
+}
+
+#imageHints{
+    background-color: #777777;
+    color: white;
+    width: 43%;
+    text-align: center;
+    float: right;
+    margin-right: 30px;
+    box-sizing: border-box;
+}
+
+#logo{
+    clear: both;
+    text-align: right;
+    padding: 0 50px;
+}
