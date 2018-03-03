@@ -1,3 +1,6 @@
+@font-face{ 
+    font-family: 'Lazer84'; src: url(../fonts/Lazer84.ttf);
+}
 
 body{
     background-image: url(../images/checkered-flag-bg.jpg);
@@ -7,13 +10,22 @@ body{
 }
 
 h1{
-    font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 95px;
+    font-family: 'Lazer84', Arial, sans-serif;
+    letter-spacing: 4px;
+    transform: rotate(-11deg);
 }
 
 h2{
     font-size: 28px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+}
+
+h3{
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 #content{
@@ -22,8 +34,8 @@ h2{
 }
 
 #gameTitle{
-    background-color: #e60505ec;
-    color: white;
+
+    color: red;
     text-align: center;
     margin: 30px 30px;
     padding: 10px 0;
@@ -44,6 +56,7 @@ h2{
 #imageHints{
     background-color: #777777;
     color: white;
+    padding: 10px 0;
     width: 43%;
     text-align: center;
     float: right;
@@ -55,4 +68,8 @@ h2{
     clear: both;
     text-align: right;
     padding: 0 50px;
+}
+
+#blankWord{
+    color: red;
 }

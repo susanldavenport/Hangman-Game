@@ -8,39 +8,44 @@
     
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
-
+    
     <title>NASCAR Hangman</title>
 </head>
 
 <body>
-
+    
     <div id="gameTitle">    
-            <h1>Hangman</h1>
-            <h2>NASCAR Edition</h2>  
+        <h1>Hangman</h1>
+        <img src="assets/images/nascar-logo.png"width=300px height=100px align=center></a>
+      
     </div>     
-        <div id ="content">
-            <div id="gamePlay">
-                <p>Press any Key to Begin!</p>
-                <p>Guess the Word:</p>
-                    <br>
-                <p>Guesses Left:</p>
-                    <br>
-                <p>Letters Guessed:</p>
-                    <br>
-            </div>
-
-            <div id="imageHints">
-                <h2>Here's a Clue</h2>
-                <img src = "https://www.placehold.it/200">
-
-            </div>
-        </div>    
-
-    <div id="logo">
-        <img src="assets/images/nascar-logo.png" width="300px" height="100px">
-    </div>
-
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <div id ="content">
+        <div id="gamePlay">
+            <p>Press any Key to Begin!</p>
+            <p>Guess the Word:</p>
+            <span id = "blankWord"></span>
+            <br>
+            <p>Guesses Left:</p>
+            <span id = "guessLeft"></span>
+            <br>
+            <p>Letters Guessed:</p>
+            <span id ="userArray"></span>
+            <br>
+        </div>
+        
+        <div id="imageHints">
+            <h3>Here's a Clue!</h3>
+            <img src = "https://www.placehold.it/200">
+            <br>
+            <p>Games Won: <span id = "win"></span></p>
+            <br>
+            <p>Games Lost: <span id ="lose"></span></p>
+            <br>
+        </div>
+    </div>    
+    
+    <!-- <script src="assets/javascript/game.js"></script> -->
+    <script type='text/javascript' src="assets/javascript/game.js"></script>
 </body>
 
 </html>
