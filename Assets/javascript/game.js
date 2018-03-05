@@ -45,6 +45,7 @@ for (var i=0; i < playedWord.length; i++) {
                     if (blankWord.join(' ') == playedWord) {
                         alert('Win!');
                     }
+                    
 
     //If no, display letter in userGuess.
                 } else {
